@@ -65,7 +65,7 @@ export default function Dashboard() {
             <select 
               value={strategy} 
               onChange={(e) => setStrategy(e.target.value)}
-              className="border border-gray-300 rounded-lg px-4 py-2 text-sm bg-white"
+              className="border border-gray-300 rounded-lg px-4 py-2 text-sm bg-white text-gray-900 focus:ring-2 focus:ring-blue-500 focus:outline-none"
               disabled={isRunning}
             >
               <option value="zero_shot">Zero Shot</option>
